@@ -3,7 +3,6 @@ package courses.pluralsight.com.tabianconsulting;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -26,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     // widgets
     private EditText mEmail, mPassword;
     private ProgressBar mProgressBar;
+    private ProgressBar m1ProgressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
